@@ -14,6 +14,7 @@
 		DED3841F2AC8DB41005B7AF9 /* financial_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3841E2AC8DB41005B7AF9 /* financial_trackerTests.swift */; };
 		DED384292AC8DB41005B7AF9 /* financial_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED384282AC8DB41005B7AF9 /* financial_trackerUITests.swift */; };
 		DED3842B2AC8DB41005B7AF9 /* financial_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3842A2AC8DB41005B7AF9 /* financial_trackerUITestsLaunchTests.swift */; };
+		DED3843A2ACA0051005B7AF9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED384392ACA0051005B7AF9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DED384242AC8DB41005B7AF9 /* financial trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "financial trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED384282AC8DB41005B7AF9 /* financial_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financial_trackerUITests.swift; sourceTree = "<group>"; };
 		DED3842A2AC8DB41005B7AF9 /* financial_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financial_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DED384392ACA0051005B7AF9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				DED3840C2AC8DB40005B7AF9 /* financial_trackerApp.swift */,
 				DED3840E2AC8DB40005B7AF9 /* ContentView.swift */,
+				DED384392ACA0051005B7AF9 /* Extensions.swift */,
 				DED384102AC8DB41005B7AF9 /* Assets.xcassets */,
 				DED384152AC8DB41005B7AF9 /* financial_tracker.entitlements */,
 				DED384122AC8DB41005B7AF9 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED3840F2AC8DB40005B7AF9 /* ContentView.swift in Sources */,
+				DED3843A2ACA0051005B7AF9 /* Extensions.swift in Sources */,
 				DED3840D2AC8DB40005B7AF9 /* financial_trackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
